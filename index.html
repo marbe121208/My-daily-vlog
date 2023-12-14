@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My daily Vlog</title>
+    <style>
+        body {
+            font-family: Perpetua, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DDD6DE 
+R;
+        }
+
+        header {
+            background-color: #C5AF8F;
+            color: #363636;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+
+            background-color: #EEEEEE;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+
+        }
+
+        article {
+            background-color: #EEEEEE ;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        section {
+            background-color: #EEEEEE ;
+            padding: 25px;
+            margin: 25px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        aside {
+            background-color: #EEEEEE;
+            color: #353535;
+            padding: 10px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #EEEEEE;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+   <script>
+    function guardarDatos() {
+        var nombre= document.getElementById("nombre").value;
+        var apellido= document.getElementById("apellido").value;
+        var ciudad=document.getElementById("ciudad").value;
+        var´pais=document.getElementById("pais").value;
+    }
+    function buscarGoogle(){
+        var query=document.getElementById("busqueda").value;
+        var url="https://www.google.com/search?q="+ encodeURIComponen
+        window.location.href=url;
+    </script>
+
+</head>
+<body>
+    <header>
+        <h1>My daily Vlog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="recetas faciles y saludables.html">recetas faciles y saludables    </a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>¿Que es lifestyle?</h2>
+        <p>Este término hace referencia al modo de vida que lleva una persona en particular o un grupo de personas, es decir, la forma en la que deciden vivir sus vidas.
+ Un estilo de vida que hoy en día,muchas personas comparten a través de blogs personales en los que hay espacio para distintos elementos que integran este lifestyle:moda,decoración,recetas de cocina,planes de ocio y etc.
+ De está manera las personas són influenciadas tanto para modificar sus rutinas de dia a dia  como para recrear alguna de rutinas hechas por celebridades o influencers. </p>
+    </article>
+    <section>
+
+        <h2>Rutinas para aprovechar tu dia</h2>
+        <p>tu vida diaria podría carecer de estructura y organización. Aunque la falta de rutina puede brindar cierta flexibilidad, también puede tener algunos efectos negativos como la falta de productividad, desorden mental, problemas a la salud,dificultad para hacer hábitos positivos y mucho más.Para esto existen tipos de rutinas las cuales empezamos a disfrutarla, por lo fácil y llamativo de este  y sin darnos cuenta nos ayuda tanto para nuestro físico como para el alma.
+
+
+
+-Levantarnos temprano: Empieza el día con energía levantándote temprano. Esto te da tiempo para prepararte sin prisas.
+
+-Journaling:El journaling en las mañanas, o escribir un diario matutino, puede tener varios beneficios para ti. Muchas personas encuentran útil comenzar el día escribiendo sobre las cosas por las que están agradecidas. Esto puede cultivar una mentalidad positiva y ayudarte a apreciar las pequeñas cosas.(Claridad Mental, Establecer Metas y Prioridades, Mejora de la Autoconciencia, etc)
+
+-Hidratación: Bebe un vaso de agua al despertar para hidratar tu cuerpo después de una noche de sueño.
+
+-Rutina de cuidado de la piel: Comienza tu día con una rutina de cuidado de la piel que te haga sentir fresco y listo para enfrentar el día.Algunas marcas de productos dermatológicas que te recomiendo son : (CeraVe, Rhode,La Roche Posay , the ordinary, etc)
+
+-Ejercicio matutino: Realiza una breve rutina de ejercicio. Puede ser yoga, pilates, estiramientos o un entrenamiento rápido para activar tu cuerpo y mente.
+
+-Comidas estéticas: Crea un plato visualmente atractivo. Un tazón de frutas, yogur y granola , poke bowl , etc puede ser no solo nutritivo sino también estético.
+
+-Planifica tu día:Dedica unos minutos a planificar tu día. Establece metas realistas y prioridades.
+ </p>
+    </section>
+    <aside>
+        <h3>Buscar en google</h3>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" placeholder="buscar en google">
+            <input type="submit" value="Buscar">
+        </form>
+         <h3>Video de YouTube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ED1KBoO9At4?si=z_XRwV05XysvpY4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <h3>Video de YouTube</h3>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/_IpHA3PdWow?si=xrRTuVe2HjqjS4r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>Te pueden ayudar</h3>
+        <ul>
+            <li><a href="#">Podcast que te podrian interesar</a></li>
+            <li><a href="#">Afirmaciones basicas para tu dia a dia</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        &copy; 2023 My daily Vlog
+    </footer>
+
+<section>
+    <div class="form container">
+        <h2>Guardar Datos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><bi>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><bi>
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad"><bi>
+                        <label for="pais">Pais:</label>
+                        <input type="text" id="pais" name="pais"><bi>
+                            <input type="submit" value="Guardar">
+                        </form>
+                    </div>
+    </body>
+</html>
